@@ -1,0 +1,184 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% Website: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.6in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-8.18pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://www.linkedin.com/in/firhardroslan/}{\Large Muhammad Firhard Roslan}} & Email : \href{mailto:firhard@gmail.com}{firhard@gmail.com}\\
+  \href{https://www.linkedin.com/in/firhardroslan/}{https://www.linkedin.com/in/firhardroslan/} & Mobile : +447310407893 \\
+\end{tabular*}
+
+\section{Profile}{I am a full-time research student at the University of Sheffield currently in the first year. I will be working in the area of software testing focusing on fuzzing.}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Sheffield}{Sheffield, UK}
+      {PhD. in Software Testing}{January. 2021 -- Ongoing}
+        \resumeItemListStart
+            \resumeItem{Research Area}{Fuzzing, Mutation Testing, Search-Based Testing}
+            \resumeItem{Areas of Interest}{Improving propagation of fuzzers to find faults, Evaluating NoSQL schema using fuzzing techniques, NoSQL schema integrity.}
+        \resumeItemListEnd
+    \resumeSubheading
+      {University of Sheffield}{Sheffield, UK}
+      {Master of Science in Software Engineering;  Grade: Distinction}{September 2017 -- September 2018}
+        \resumeItemListStart
+            \resumeItem{Courses}{Testing and Verification,  Agile Development, Cloud Computing, Software/Hardware Verification.}
+        \resumeItemListEnd
+    \resumeSubheading
+      {University of Nebraska-Lincoln}{Lincoln, Nebraska, USA}
+      {Bachelor of Science in Computer Engineering;  GPA: 3.431/4.000}{August 2014 -- May 2017}
+        \resumeItemListStart
+            \resumeItem{Courses}{Electrical Circuits, Computer Architecture, Cryptography, Database, Data Structure \& Algorithm}
+            \resumeItem{Dean's List}{Fall `14, Fall `15 and Fall `16}
+        \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading 
+      {Oracle Corporation Malaysia}{Kuala Lumpur, Malaysia}
+      {Software Engineer}{May 2019 - December 2020}
+      \resumeItemListStart
+        \resumeItem{Full Stack Developer}
+          {Working as a full stack software developer using Oracle JET framework for front-end, Spring Boot for the back-end, and Oracle Database for storing data. Following the right Software Principles.}
+        \resumeItem{Sustaining Engineer}
+          {Maintaining legacy system particularly related to Oracle Database and payment transactions.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {The OAK Group, University of Sheffield}{Sheffield, UK}
+      {Research Software Engineer}{September 2018 - January 2020}
+      \resumeItemListStart
+        \resumeItem{Full Stack Developer}
+          {Full stack NodeJS web developer focusing on real-time video chatting using SocketIO and WebRTC, storing information in MongoDB, handling deployment of NodeJS}
+        \resumeItem{Android Developer}
+          {Develop native Android application that would communicate with NodeJS for video chatting.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Cybersecurity Malaysia}{Kuala Lumpur, Malaysia}
+      {Internship}{September 2018 - January 2020}
+      \resumeItemListStart
+        \resumeItem{Security}
+          {Analyze statically and dynamically vulnerabilities on a website.}
+        \resumeItem{Software Principle}
+          {Learn good security development standards and practices.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {University of Nebraska-Lincoln}{Lincoln, Nebraska, USA}
+      {Undergraduate Teaching Assistant for Embedded System Module}{January 2016 - May 2016}
+      \resumeItemListStart
+        \resumeItem{Teaching Assistant}
+          {Assisted  students with the task at hand and grading, held consulting hours for students.}
+        \resumeItem{Lab Assistant}
+          {Help students related to Arduino and most of the sensors.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Accomplishment and Awards}
+  \resumeSubHeadingListStart
+    \resumeSubItem{MSc. Dissertation (with Distinction): Ridesharing for Self Driving Car}
+      {Focus on the scheduling of the self-driving car, shortest path optimization.Firebase as web service, Graphhopper as routing engine, OpenStreetMap as the  web mapping service. }
+    \resumeSubItem{NIMBUS Lab}
+      {Served as a web developer (back-end) on Extensible UAV Interface for Nebraska Intelligent MoBile Unmanned Systems (NIMBUS) lab for senior design project}
+    \resumeSubItem{Honer Society}
+      {Tau Sigma Honor Society, University of Nebraska-Lincoln}
+    \resumeSubItem{Scholarship Awarded}
+      {Global Ambassador Scholarship Award, University of Nebraska-Lincoln (2014 - 2017) \&
+      MARA GrEP PhD Program, Malaysian Government (2021 - 2025)}
+%     \resumeSubItem{Mac Setup}
+%       {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+  \resumeSubHeadingListEnd
+
+%
+%--------PROGRAMMING SKILLS------------
+\section{Programming Skills}
+ \resumeSubHeadingListStart
+    \resumeSubItem{Languages}
+        {JavaScript, Java, Ruby, C, No-SQL, SQL, currently learning Go}
+    \resumeSubItem{Technologies}
+        {React, Oracle-JET, MongoDB, SQLite, Git, Firebase, VS Code, Socket IO, IntelliJ, Eclipse}
+ \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
